@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名前暗号化アプリ - あなたの個人情報を安全に保護</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            margin: 20px auto;
+            background-color: #0066cc;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon-lock {
+            font-size: 60px;
+            color: white;
+        }
+        .feature {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+        .feature-icon {
+            font-size: 30px;
+            margin-right: 20px;
+            color: #0066cc;
+            min-width: 40px;
+            text-align: center;
+        }
+        .feature-text {
+            flex: 1;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .screenshot {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            margin: 20px auto;
+            display: block;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="app-icon">
+            <div class="icon-lock">🔒</div>
+        </div>
+        <h1>名前暗号化アプリ</h1>
+        <p>あなたの個人情報を安全に保護するシンプルなツール</p>
+    </header>
+
+    <section>
+        <h2>アプリの特徴</h2>
+        
+        <div class="feature">
+            <div class="feature-icon">🔒</div>
+            <div class="feature-text">
+                <h3>強力な暗号化</h3>
+                <p>業界標準のAES-GCM暗号化アルゴリズムを使用し、あなたの個人情報を安全に保護します。</p>
+            </div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-icon">👀</div>
+            <div class="feature-text">
+                <h3>プライバシー重視</h3>
+                <p>すべての処理はデバイス内で完結。サーバーにデータを送信することはありません。</p>
+            </div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-icon">🔑</div>
+            <div class="feature-text">
+                <h3>安全な復号化</h3>
+                <p>暗号化されたテキストは、正しいキーを持つ人だけが復号化できます。</p>
+            </div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-icon">📱</div>
+            <div class="feature-text">
+                <h3>シンプルな操作</h3>
+                <p>直感的なインターフェースで、誰でも簡単に使えます。</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>こんな時に便利です</h2>
+        <ul>
+            <li>SNSやメッセージアプリで個人情報を安全に共有したい時</li>
+            <li>機密データを保護したい時</li>
+            <li>限られた人だけにアクセスさせたい情報がある時</li>
+            <li>パスワードのような重要な情報を安全に保存したい時</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>使い方</h2>
+        <ol>
+            <li>暗号化したい名前やテキストを入力</li>
+            <li>暗号化キー（パスワード）を設定</li>
+            <li>「暗号化する」ボタンをタップ</li>
+            <li>生成された暗号文をコピーして共有</li>
+            <li>受信者は同じキーを使って復号化</li>
+        </ol>
+        
+        <img src="/api/placeholder/300/600" alt="アプリのスクリーンショット" class="screenshot" />
+    </section>
+
+    <section>
+        <h2>セキュリティについて</h2>
+        <p>本アプリは、Appleが提供する標準的な暗号化ライブラリ（CryptoKit）を使用しています。AES-GCM暗号化とSHA-256ハッシュ関数により、高いセキュリティレベルを実現しています。</p>
+        <p>暗号化キーと暗号化データは、すべてユーザーのデバイス内でのみ処理され、外部に送信されることはありません。</p>
+    </section>
+
+    <div style="text-align: center; margin-top: 40px;">
+        <a href="https://apps.apple.com/jp/app/your-app-id" class="cta-button">App Storeでダウンロード</a>
+    </div>
+
+    <footer>
+        <p>© 2025 名前暗号化アプリ. All rights reserved.</p>
+        <p><a href="privacy-policy.html">プライバシーポリシー</a></p>
+    </footer>
+</body>
+</html>
